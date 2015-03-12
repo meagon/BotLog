@@ -1,4 +1,0 @@
-bottle>=0.13
-sqlalchemy>=0.9.8
-jinja2>=2.7.3
-bottle-sqlalchemy>=0.4.1
