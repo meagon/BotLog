@@ -1,0 +1,105 @@
+element {
+}
+#masthead, #main-feature, #main-content, #colophon, .billboard, .container {
+    display: block;
+    margin: 0px auto;
+    padding-left: 20px;
+    padding-right: 20px;
+    position: relative;
+    text-align: -moz-center;
+}
+#main-content {
+    padding-bottom: 48px;
+    min-height: 403px;
+    background: url("/static/img/sandstone/grain.png") repeat scroll 0% 0%, radial-gradient(circle farthest-side at center bottom , #EAEFF2 0%, #D4DDE4 100%) repeat scroll 0% 0% transparent;
+}
+html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, address, cite, code, del, dfn, em, img, ins, kbd, q, samp, small, strong, sub, sup, var, b, i, hr, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, figure, figcaption, hgroup, menu, footer, header, nav, section, summary, time, mark, audio, video {
+    margin: 0px;
+    padding: 0px;
+    border: 0px none;
+}
+body {
+    font-size: 14px;
+    line-height: 1.5;
+    font-family: "Open Sans",sans-serif;
+    color: #333;
+}
+
+
+
+
+
+
+form legend {
+    font-family: "" "Open Sans Light",sans-serif;
+    font-size: 32px;
+    letter-spacing: -1px;
+    font-weight: bold;
+    margin: 0px 0px 20px;
+    line-height: 100%;
+    text-shadow: 0px 1px 0px rgba(255, 255, 255, 0.75);
+    color: #484848;
+	text-align: center;
+}
+
+
+form .form-group {
+    padding: 15px 0px;
+}
+
+
+form .control-label {
+    display: block;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding: 0px 0px 5px;
+}
+
+
+
+form input[type="text"], form input[type="password"], form select {
+    min-width: 200px;
+}
+textarea, input[type="email"], input[type="password"], input[type="search"], input[type="text"] {
+    height: 20px;
+    background: none repeat scroll 0% 0% #FFF;
+    border-color: #B2B2B2;
+    border-style: solid;
+    border-width: 1px;
+    font-size: 12px;
+    font-family: "Open Sans",sans-serif;
+    padding: 3.33333px 6.66667px;
+    border-radius: 3px;
+    box-shadow: 0px 1px rgba(255, 255, 255, 0.5);
+    transition: all 0.1s linear 0s;
+}
+
+
+
+form .form-actions .primary {
+    padding: 0px 50px;
+}
+.button, .button-white {
+    cursor: pointer;
+}
+.button, .button:link, .button:visited {
+    display: inline-block;
+    border-radius: 0.25em;
+    box-shadow: 0px 1px 0px 0px rgba(0, 0, 0, 0.2), 0px -1px 0px 0px rgba(0, 0, 0, 0.3) inset;
+    background-color: #277AC1;
+    background-repeat: repeat-x;
+    background-image: linear-gradient(#43A6E2, #277AC1);
+    color: #FFF;
+    text-align: center;
+    font-size: 14px;
+    padding: 0px 20px;
+    height: 40px;
+    line-height: 40px;
+    text-decoration: none;
+    min-width: 100px;
+    border: 0px none;
+    text-shadow: 0px 1px 0px rgba(0, 0, 0, 0.25);
+    font-family: "Open Sans",sans-serif;
+    transition: all 0.25s linear 0s;
+}
+
